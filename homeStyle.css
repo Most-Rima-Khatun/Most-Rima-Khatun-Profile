@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f8f9fa;
+}
+
+#header {
+    background-color: #b173ca; /* Bootstrap Primary Color */
+    color: white;
+    border-bottom: 4px solid #d56df0; /* Darker blue border for the header */
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+h1, h2 {
+    font-family: 'Arial', sans-serif;
+}
+
+.social-links .btn {
+    margin-right: 10px;
+}
+
+@media (max-width: 767px) {
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+}
